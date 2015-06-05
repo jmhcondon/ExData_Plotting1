@@ -1,7 +1,6 @@
-## This script implements Exporatory Data Analysis Course Project1 plot4. 
-##a multiline graph 
-
-## of Energy Sub_metering 1, 2, and 3 vs. Time. 
+## This script implements Exporatory Data Analysis Course Project1 plot4, a 2x2 
+## multiple base plot of global active power vs. time, voltage vs. time, sub mnetering
+## vs. time, and reactive power vs. time.
 ## It reads the "household.power.consumptioon.txt" file into a data frame, and subsets it
 ## to the two day period from 2007-02-01 to 2007-02-02.  It converts the subset data frame
 ## Date and Time columns to Date and POSIXlt formats, and all the power metrics to numeric.
